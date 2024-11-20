@@ -1,7 +1,7 @@
 // Navbar.js
 import React from 'react';
-import { BiUser } from 'react-icons/bi';
-import { BsSearch } from 'react-icons/bs';
+// import { BiUser } from 'react-icons/bi';
+// import { BsSearch } from 'react-icons/bs';
 import { IoMenu } from "react-icons/io5";
 import '../css/NavBar.css';
 

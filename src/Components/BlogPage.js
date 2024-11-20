@@ -119,9 +119,18 @@ function BlogPage() {
         <p>{post.additionalMessage}</p>
       </div>
       {/* Clicking on the "Read More" link will open the modal */}
-      <a href="#" className="read-more" onClick={() => openModal(index)}>Read More</a>
-    </div>
-  ));
+      <div className="message">
+  {/* Clicking the "Read More" button will open the modal */}
+          <button 
+             type="button" 
+             className="read-more" 
+             onClick={() => openModal(index)}
+              >
+    Read More
+            </button>
+                </div>
+              </div>
+            ));
 
   return (
     <div className="blog-container">

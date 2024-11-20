@@ -15,7 +15,7 @@ function BlogPageModal({ post, onClose }) {
     return () => {
       document.removeEventListener('mousedown', handleCloseOutside);
     };
-  }, []); // Empty dependency array ensures effect runs only once on mount
+  }, ); // Empty dependency array ensures effect runs only once on mount
 
   return (
     <div className="modal" onClick={handleCloseOutside}>

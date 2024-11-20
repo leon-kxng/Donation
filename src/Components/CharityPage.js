@@ -48,7 +48,12 @@ const CharityPage = () => {
         <div className="donation-card">
           <h3 className="donation-heading">Support Our Cause:</h3>
           <p className="donation-status">${raisedAmount} raised of ${goalAmount} goal</p>
-          <ProgressBar now={progress} label={'${progress.toFixed(2)}%'} variant="success" className="custom-progress-bar" />
+          <ProgressBar 
+            now={progress} 
+            label={`${progress.toFixed(2)}%`} 
+            variant="success" 
+            className="custom-progress-bar" 
+          />
           <button onClick={toggleModal} className="donate-btn">Donate Now</button>
           {showModal && <Payment toggleModal={toggleModal} />}
           <p className="donation-note">Your contribution helps ensure the success of our initiatives and projects. We are committed to making a positive impact in our community.</p>
@@ -71,7 +76,10 @@ const CharityPage = () => {
       <div className="contact-card">
         <h2>Contact Us</h2>
         <div className="contact-info">
-          <p><FaEnvelope className="icon" /> <a href={'mailto:${contactDetails[0].charity_email}'}>{contactDetails[0].charity_email}</a></p>
+        <p>
+          <FaEnvelope className="icon" /> 
+          <a href={`mailto:${contactDetails[0].charity_email}`}>{contactDetails[0].charity_email}</a>
+        </p>
           <p><FaMapMarkerAlt className="icon" /> <a href={contactDetails[0].map_details} target="_blank" rel="noopener noreferrer">Find Us on the Map</a></p>
           <p><FaClock className="icon" /> Last Contact: {contactDetails[0].date}</p>
         </div>
