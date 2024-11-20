@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../css/ContactUs.css';
-import { FaEnvelope, FaMapMarkerAlt, FaClock } from 'react-icons/fa';
+// import { FaEnvelope, FaMapMarkerAlt, FaClock } from 'react-icons/fa';
 
 
 function ContactUs() {
@@ -43,6 +43,7 @@ function ContactUs() {
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/943b895069b5dece178a43f0f7a4b97cfc207f9aa9193e05a1412dff3bd6544d?apiKey=3e0d261692c841b7bb088c0358ed4b4b&"
+              alt="" aria-hidden="true" 
               className="img"
             />
             <div className="div-4" />
@@ -55,6 +56,7 @@ function ContactUs() {
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/bab0f98eeedec51b7eef84aa2a6f5fb30d214a7d3450dc8eecca7e59fdd7ba1f?apiKey=3e0d261692c841b7bb088c0358ed4b4b&"
+              alt="" aria-hidden="true" 
               className="img"
             />
             <div className="div-9" />
@@ -67,6 +69,7 @@ function ContactUs() {
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/bdc4f39c079e3074e0b69f0b58a64f8c3142cbee4441bce789d5e7e53f4ac569?apiKey=3e0d261692c841b7bb088c0358ed4b4b&"
+              alt="" aria-hidden="true" 
               className="img"
             />
             <div className="div-14" />
